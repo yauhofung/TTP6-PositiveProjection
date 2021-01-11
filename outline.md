@@ -1,4 +1,4 @@
-# Heya Kredit
+# HeYau DeKredit
 
 ## What is it?
 - Heya Kredit is a tech-based credit banking company.
