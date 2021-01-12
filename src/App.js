@@ -18,8 +18,8 @@ import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
 import { Button } from '@material-ui/core'
-import Snackbar from '@material-ui/core/Snackbar';
-import CloseIcon from '@material-ui/icons/Close';
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
 
 
 const drawerWidth = 240;
@@ -85,6 +85,7 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(3),
   },
 }));
+
 
 export default function MiniDrawer() {
   const classes = useStyles();
@@ -163,12 +164,27 @@ export default function MiniDrawer() {
         </List>
       </Drawer>
       <main className={classes.content}>
+		  
         <div className={classes.toolbar} />
 		<Typography variant="h3" component="h3">
   			Welcome,
 		</Typography>
+		<Card className={classes.root}>
+			<CardContent>
+			<Typography className={classes.title} color="textSecondary" gutterBottom>
+				This is a card!
+				<br></br>
+				<br></br>
+				I'm a card!
+				<br></br>
+				<br></br>
+				<Button>I'm another button within a card!</Button>
+        	</Typography>
+			</CardContent>
+		</Card>
 		<br></br>
 		<Button color="secondary" variant="outlined" fullWidth ={true}>This is a full width button!</Button>
+		
       </main>
     </div>
   );
