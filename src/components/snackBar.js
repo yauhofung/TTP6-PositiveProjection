@@ -21,7 +21,9 @@ export default function SimpleSnackbar() {
 
   return (
     <div>
+
       <Button onClick={handleClick}>Don't click me!</Button>
+
       <Snackbar
         anchorOrigin={{
           vertical: 'bottom',
@@ -30,7 +32,9 @@ export default function SimpleSnackbar() {
         open={open}
         autoHideDuration={6000}
         onClose={handleClose}
+
         message="I TOLD YOU TO NOT CLICK ME!"
+
         action={
           <React.Fragment>
             <Button color="secondary" size="small" onClick={handleClose}>
@@ -44,4 +48,4 @@ export default function SimpleSnackbar() {
       />
     </div>
   );
-}
+
