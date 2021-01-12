@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
+import Grid from '@material-ui/core/Grid';
 import Drawer from '@material-ui/core/Drawer';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -18,6 +19,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
 import SimpleSnackbar from './snackBar';
+import AppForm from './AppForm';
 
 
 const drawerWidth = 240;
@@ -163,7 +165,11 @@ export default function MiniDrawer() {
       </Drawer>
       <main className={classes.content}>
         <div className={classes.toolbar} />
-		<SimpleSnackbar></SimpleSnackbar>
+        <Grid container>
+        <SimpleSnackbar></SimpleSnackbar>
+        <AppForm />
+        </Grid>
+		
       </main>
     </div>
   );
