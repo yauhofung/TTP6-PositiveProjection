@@ -124,7 +124,7 @@ export default function MiniDrawer() {
 
             Assignment 6: Positive Projection
 
-          </Typography>		  
+          </Typography>
 
         </Toolbar>
       </AppBar>
@@ -167,8 +167,8 @@ export default function MiniDrawer() {
       </Drawer>
       <main className={classes.content}>
         <div className={classes.toolbar} />
-		<SimpleSnackbar></SimpleSnackbar>
-		<SimpleDialogDemo/>
+        <SimpleSnackbar></SimpleSnackbar>
+        <SimpleDialogDemo />
       </main>
     </div>
   );
