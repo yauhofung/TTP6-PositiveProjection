@@ -35,6 +35,7 @@ export default function SimpleSnackbar() {
 
         message="I TOLD YOU TO NOT CLICK ME!"
 
+
         action={
           <React.Fragment>
             <Button color="secondary" size="small" onClick={handleClose}>
@@ -48,4 +49,5 @@ export default function SimpleSnackbar() {
       />
     </div>
   );
+}
 

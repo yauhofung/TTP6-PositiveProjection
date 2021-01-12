@@ -18,6 +18,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
 import SimpleSnackbar from './snackBar';
+import SimpleDialogDemo from './login';
 
 
 const drawerWidth = 240;
@@ -123,7 +124,8 @@ export default function MiniDrawer() {
 
             Assignment 6: Positive Projection
 
-          </Typography>
+          </Typography>		  
+
         </Toolbar>
       </AppBar>
       <Drawer
@@ -166,6 +168,7 @@ export default function MiniDrawer() {
       <main className={classes.content}>
         <div className={classes.toolbar} />
 		<SimpleSnackbar></SimpleSnackbar>
+		<SimpleDialogDemo/>
       </main>
     </div>
   );
