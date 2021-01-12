@@ -122,7 +122,9 @@ export default function MiniDrawer() {
 
           <Typography variant="h6" noWrap>
             Assignment 6: Positive Projection
-          </Typography>		  
+			
+          </Typography>		
+		  <SimpleDialogDemo/>
         </Toolbar>
       </AppBar>
       <Drawer
@@ -164,8 +166,10 @@ export default function MiniDrawer() {
       </Drawer>
       <main className={classes.content}>
         <div className={classes.toolbar} />
+		
+		<br></br>
 		<SimpleSnackbar></SimpleSnackbar>
-		<SimpleDialogDemo/>
+		
       </main>
     </div>
   );
