@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# MEC TTP 2021 Winter Assignment 6: Positive Projection
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Purpose
 
-## Available Scripts
+To practice using the terminal, working with `npm`, writing basic JSX code, and using the Material UI framework within the framing of building a mock informational website.
 
-In the project directory, you can run:
+## Task
 
-### `npm start`
+With your team, imagine that 10 years have passed and you have formed some sort of tech related company together. It does not have to be in coding, but you all have to be founding members. What is it? Why is it important? How do you operate? What sort of information do you want to present to new visitors to your site?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Take all of this information and produce a simple React website. For now, it will all have to fit on one page since we have not gone over how to produce multiple pages.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Requirements
 
-### `npm test`
+Each team member needs to use 3 Material UI components, **not** counting Grid. You can use the same components between team members. For example, if Rachel is writing the section on About Us, she can use Material UI Button, Accordion, and Card. If Elvis is writing the section on History of Impact, he can use Material UI Slider, Snackbar, and Card. They each are using 3 components, even though there is overlap.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The website should use Grid by default and be responsive.
 
-### `npm run build`
+## Reference Materials
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Browse through Material UI's list of components first and get a sense of what is available and how they work. You may also dive into the `Component API` list for finer details on how to use things.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[https://material-ui.com/](https://material-ui.com/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Additive Education
 
-### `npm run eject`
+Since React is a large topic stretching over multiple days, we will be reusing your code from this assignment for future assignments. Therefore, make sure you spend time now to agree on something your team will be proud of.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Submission
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Submit a single github link before 11:59pm EST on Jan 12, 2021 using the following form. Only one student on your team needs to submit and be sure to tag all the team members when submitting.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[https://airtable.com/shrdhk3TgUWZ6pFO5](https://airtable.com/shrdhk3TgUWZ6pFO5)

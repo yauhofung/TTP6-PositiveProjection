@@ -120,7 +120,9 @@ export default function MiniDrawer() {
           </IconButton>
 
           <Typography variant="h6" noWrap>
+
             Assignment 6: Positive Projection
+
           </Typography>
         </Toolbar>
       </AppBar>
