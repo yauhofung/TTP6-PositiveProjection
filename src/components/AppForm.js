@@ -24,8 +24,6 @@ function Form() {
             <TextField id="standard-basic" size="medium" label="First Name" />
             <TextField id="standard-basic" label="Last Name" />
 
-            <Divider />
-
             <TextField
           label="Annual Salary"
           id="standard-start-adornment"
