@@ -18,6 +18,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
 import SimpleSnackbar from './snackBar';
+import About_Us from './About_Us';
 
 
 const drawerWidth = 240;
@@ -164,6 +165,7 @@ export default function MiniDrawer() {
       <main className={classes.content}>
         <div className={classes.toolbar} />
 		<SimpleSnackbar></SimpleSnackbar>
+    <About_Us/>
       </main>
     </div>
   );

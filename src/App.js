@@ -3,7 +3,6 @@ import React, { Component } from "react";
 // other imports
 import { Snackbar } from "@material-ui/core";
 import MiniDrawer from './components/MiniDrawer';
-import About_Us from './components/About_Us';
 
 class App extends Component {
 	// other member functions and variables can go here
@@ -20,7 +19,6 @@ class App extends Component {
 			<div className="App">
 				<MiniDrawer>
 				</MiniDrawer>
-				<About_Us/>
 			</div>
 		);
 	}
