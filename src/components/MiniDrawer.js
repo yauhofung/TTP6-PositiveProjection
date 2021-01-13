@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
+import Grid from '@material-ui/core/Grid';
 import Drawer from '@material-ui/core/Drawer';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -18,6 +19,8 @@ import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
 import SimpleSnackbar from './snackBar';
+import About_Us from './About_Us';
+import AppForm from './AppForm';
 import SimpleDialogDemo from './login';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
@@ -30,6 +33,7 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import RadioGroup from '@material-ui/core/RadioGroup';
 import Radio from '@material-ui/core/Radio';
 import Paper from '@material-ui/core/Paper';
+
 
 const drawerWidth = 240;
 
@@ -133,8 +137,9 @@ export default function MiniDrawer() {
           <Typography variant="h6" noWrap>
 
             Assignment 6: Positive Projection
-
-          </Typography>
+			
+          </Typography>		
+		  <SimpleDialogDemo/>
 
         </Toolbar>
       </AppBar>
@@ -177,8 +182,10 @@ export default function MiniDrawer() {
       </Drawer>
       <main className={classes.content}>
         <div className={classes.toolbar} />
+
+        <Grid container>
         <SimpleSnackbar></SimpleSnackbar>
-        <SimpleDialogDemo />
+        <AppForm />
 
         {/* Contact Us */}
         <br></br>
@@ -205,6 +212,8 @@ export default function MiniDrawer() {
           </CardContent>
         </Card>
 
+        <About_Us/>
+        </Grid>
       </main>
     </div>
   );
