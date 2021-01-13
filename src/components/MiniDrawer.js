@@ -27,13 +27,6 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
-import Grid from '@material-ui/core/Grid';
-import FormLabel from '@material-ui/core/FormLabel';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import RadioGroup from '@material-ui/core/RadioGroup';
-import Radio from '@material-ui/core/Radio';
-import Paper from '@material-ui/core/Paper';
-
 
 const drawerWidth = 240;
 
@@ -184,35 +177,37 @@ export default function MiniDrawer() {
         <div className={classes.toolbar} />
 
         <Grid container>
-        <SimpleSnackbar></SimpleSnackbar>
-        <AppForm />
+          <SimpleSnackbar></SimpleSnackbar>
+          <AppForm />
 
-        {/* Contact Us */}
-        <br></br>
-        <Card className={classes.root}>
-          <CardContent>
-            <h1>
-              Contact Us
-            </h1>
-            <TextField
-              id="contactEmail"
-              label="Email"
-              required
-              placeholder="username@example.com"
-            />
-            <TextField
-              id="contactMessage"
-              label="Message"
-              fullWidth
-              multiline
-            />
-            <Button variant="outlined">
-              Send Message
-            </Button>
-          </CardContent>
-        </Card>
+          {/* Contact Us */}
+          <Grid item xs={12}>
+            <br></br>
+            <Card className={classes.root}>
+              <CardContent>
+                <h1>
+                  Contact Us
+                </h1>
+                <TextField
+                  id="contactEmail"
+                  label="Email"
+                  required
+                  placeholder="username@example.com"
+                />
+                <TextField
+                  id="contactMessage"
+                  label="Message"
+                  fullWidth
+                  multiline
+                />
+                <Button variant="outlined">
+                  Send Message
+                </Button>
+              </CardContent>
+            </Card>
+          </Grid>
 
-        <About_Us/>
+          <About_Us/>
         </Grid>
       </main>
     </div>
