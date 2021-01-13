@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
+import Grid from '@material-ui/core/Grid';
 import Drawer from '@material-ui/core/Drawer';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -19,6 +20,9 @@ import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
 import SimpleSnackbar from './snackBar';
 import About_Us from './About_Us';
+import AppForm from './AppForm';
+import SimpleDialogDemo from './login';
+
 
 
 const drawerWidth = 240;
@@ -121,8 +125,12 @@ export default function MiniDrawer() {
           </IconButton>
 
           <Typography variant="h6" noWrap>
-            Assignment 7
-          </Typography>
+
+            Assignment 6: Positive Projection
+			
+          </Typography>		
+		  <SimpleDialogDemo/>
+
         </Toolbar>
       </AppBar>
       <Drawer
@@ -164,8 +172,12 @@ export default function MiniDrawer() {
       </Drawer>
       <main className={classes.content}>
         <div className={classes.toolbar} />
-		<SimpleSnackbar></SimpleSnackbar>
-    <About_Us/>
+
+        <Grid container>
+        <SimpleSnackbar></SimpleSnackbar>
+        <AppForm />
+        <About_Us/>
+        </Grid>
       </main>
     </div>
   );
