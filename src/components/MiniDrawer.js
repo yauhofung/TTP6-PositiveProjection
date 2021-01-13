@@ -185,38 +185,38 @@ export default function MiniDrawer() {
             <AppForm />
           </Grid>
 
-          {/* Contact Us */}
-          <Grid item xs={12}>
-            <br></br>
-            <Card className={classes.root}>
-              <CardContent>
+					<Grid item xs={12}>
+						<About_Us/>
+					</Grid>
+
+					{/* Contact Us */}
+					<Grid item xs={12}>
+						<br></br>
+						<Card className={classes.root}>
+							<CardContent>
 								<Typography className={classes.title} gutterBottom>
 									Contact Us
 								</Typography>
-                <TextField
-                  id="contactEmail"
-                  label="Email"
-                  required
-                  placeholder="username@example.com"
-                />
-                <TextField
-                  id="contactMessage"
+								<TextField
+									id="contactEmail"
+									label="Email"
+									required
+									placeholder="username@example.com"
+								/>
+								<TextField
+									id="contactMessage"
 									label="Message"
 									required
-                  fullWidth
-                  multiline
-                />
-              </CardContent>
-              <CardActions>
-                <Button variant="contained" color="primary">
-                  Send Message
-                </Button>
-              </CardActions>
-            </Card>
-          </Grid>
-
-					<Grid item xs={12}>
-						<About_Us/>
+									fullWidth
+									multiline
+								/>
+							</CardContent>
+							<CardActions>
+								<Button variant="contained" color="primary">
+									Send Message
+								</Button>
+							</CardActions>
+						</Card>
 					</Grid>
         </Grid>
       </main>
