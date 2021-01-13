@@ -177,6 +177,8 @@ export default function MiniDrawer() {
 				<Grid container>
 					<Grid item xs={12}>
 						<SimpleSnackbar></SimpleSnackbar>
+						<br />
+						<Divider />
 					</Grid>
 
 					<Grid item xs={12}>
