@@ -181,15 +181,15 @@ export default function MiniDrawer() {
 
 					<Grid item xs={12}>
 						<AppForm />
-            <br />
-            <Divider />
+						<br />
+						<Divider />
 					</Grid>
 
 					<Grid item xs={12}>
 						<About_Us />
-            <br />
-            <br />
-            <Divider />
+						<br />
+						<br />
+						<Divider />
 					</Grid>
 
 					{/* Contact Us */}
