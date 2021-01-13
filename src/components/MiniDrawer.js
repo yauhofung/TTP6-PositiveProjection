@@ -177,17 +177,22 @@ export default function MiniDrawer() {
         <div className={classes.toolbar} />
 
         <Grid container>
-          <SimpleSnackbar></SimpleSnackbar>
-          <AppForm />
+          <Grid item xs={12}>
+            <SimpleSnackbar></SimpleSnackbar>
+          </Grid>
+
+          <Grid item xs={12}>
+            <AppForm />
+          </Grid>
 
           {/* Contact Us */}
           <Grid item xs={12}>
             <br></br>
             <Card className={classes.root}>
               <CardContent>
-                <h1>
-                  Contact Us
-                </h1>
+								<Typography className={classes.title} gutterBottom>
+									Contact Us
+								</Typography>
                 <TextField
                   id="contactEmail"
                   label="Email"
@@ -196,18 +201,23 @@ export default function MiniDrawer() {
                 />
                 <TextField
                   id="contactMessage"
-                  label="Message"
+									label="Message"
+									required
                   fullWidth
                   multiline
                 />
-                <Button variant="outlined">
+              </CardContent>
+              <CardActions>
+                <Button variant="contained" color="primary">
                   Send Message
                 </Button>
-              </CardContent>
+              </CardActions>
             </Card>
           </Grid>
 
-          <About_Us/>
+					<Grid item xs={12}>
+						<About_Us/>
+					</Grid>
         </Grid>
       </main>
     </div>
